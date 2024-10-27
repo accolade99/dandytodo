@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+  }
+
+  body{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+.todoform{
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+/*#head {
+    background-color: antiquewhite; margin-left: 10px; margin-right: 2000px;; border-radius: 10px; text-align: center;
+}*/
+
+@media only screen and (max-width: 600px){
+    h1{
+      font-size: 30px;
+    }
+  }
